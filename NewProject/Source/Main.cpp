@@ -69,8 +69,6 @@ public:
 
             setFullScreen (true);
 
-           #endif
-
             setVisible (true);
         }
 
