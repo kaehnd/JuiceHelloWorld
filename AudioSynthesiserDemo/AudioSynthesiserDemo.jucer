@@ -2,7 +2,7 @@
 
 <JUCERPROJECT name="AudioSynthesiserDemo" companyName="JUCE" version="1.0.0"
               userNotes="Simple synthesiser application." companyWebsite="http://juce.com"
-              displaySplashScreen="1" defines="PIP_JUCE_EXAMPLES_DIRECTORY=QzpcUHJvZ3JhbSBGaWxlc1xKVUNFXGV4YW1wbGVz"
+              displaySplashScreen="0" defines="PIP_JUCE_EXAMPLES_DIRECTORY=QzpcUHJvZ3JhbSBGaWxlc1xKVUNFXGV4YW1wbGVz"
               projectType="guiapp" useAppConfig="0" addUsingNamespaceToJuceHeader="1"
               id="PRSzSY" jucerFormatVersion="1">
   <MAINGROUP id="BXQXqS" name="AudioSynthesiserDemo">
@@ -127,7 +127,7 @@
       </MODULEPATHS>
     </XCODE_IPHONE>
   </EXPORTFORMATS>
-  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_WEB_BROWSER="0"/>
   <LIVE_SETTINGS>
     <WINDOWS buildEnabled="1"/>
     <LINUX/>
